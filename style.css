@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    background-color:white;
+    border: 3px solid gray;
+    border-radius: 15px;
+    background-image: url(./CLOUD.jpg);
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 17px;
+}
+a{
+    text-decoration: none;
+    padding-top: -5px;
+    color:rgb(8, 179, 8);
+    font-weight: 900;
+    font-size: large;
+    text-transform: capitalize;
+    font-style: italic;
+    position: absolute;
+}
+a:hover{
+    color: rgb(109, 105, 105);
+    font-size: 20px;
+}
+.portfolio{
+    padding-left: 130px;
+    padding-right: 270px;
+    padding-top: 8pxpx;
+}
+.links ul li{
+    padding-left: 103px;
+}
+.links{
+    padding-left: 17px;
+}
+body{
+    background-image: url(./blue.png);
+    border-radius: 50px;
+}
+.portword{
+    display: flex;
+}
+#port{
+    color: darkolivegreen;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: -1px 3px 2px grey;
+}
+#folio{
+    color:rgb(8, 179, 8);
+    font-family:cursive;
+    text-shadow: -1px 3px 2px grey;
+
+}
+.info{
+    color: aliceblue;
+    text-transform: capitalize;
+    margin: auto;
+    margin-inline: auto;
+}
+#name{
+    color: rgb(8 235 8);
+    font-size: 40px;
+    text-shadow: 2px 3px 6px black;
+}
+
+.photo img{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 300px;
+    border: 3px solid greenyellow;
+}
+.about{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 1253px;
+    height: 400px;
+    border-radius: 50px;
+    display: flex;
+    background-color:transparent;
+}
+.about:hover{
+    background-color: rgb(7, 101, 184);
+}
+.info{
+    text-align: center;
+}
+.info p{
+    font-style:italic;
+    font-family: cursive;
+    font-size: 15px;
+}
+#hello{
+    font-size: 20px;
+
+}
+p{
+    width: 400px;
+    color: white;
+}
+.int{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1253px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: rgb(7, 101, 184);
+}
+#growth{
+    width: 300px;
+    text-transform: capitalize;
+}
+.aboutbox{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    width: 1253px;
+    height: auto;
+    border-radius: 50px;
+    display: flex;
+    background-color:transparent rgb(7, 101, 184);
+}
+.aboutbox:hover{
+    background-color: rgb(7, 101, 184);
+}
+.aboutbox ul li{ 
+    list-style-type: none;
+    padding-top: 10px;
+}
+.aboutbox ul{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    font-family: cursive;
+    font-weight: 500;
+    font-size:large;
+    text-transform: capitalize;
+}
+#kid{
+    font-style: italic;
+}
+#linkedin{
+    font-size: 20px;
+}
+.contact{
+     margin-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    width: 1253px;
+    height: auto;
+    border-radius: 50px;
+    background-color: transparent rgb(7, 101, 184);
+}
+.contact:hover{
+    background-color: rgb(7, 101, 184);
+}
+.linked{
+    margin-left:50px ;
+    padding-top: 20px;
+}
