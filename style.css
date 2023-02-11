@@ -8,7 +8,6 @@
     margin-left: 0vh;
     background-color:white;
     border: 3px solid gray;
-    border-radius: 7vh;
     background-image: url(./CLOUD.jpg);
 }
 .links ul{
@@ -84,7 +83,6 @@ body{
     margin-left: 7vh;
     width: 190vh;
     height: 60vh;
-    border-radius: 10vh;
     display: flex;
     background-color:transparent;
 }
@@ -166,4 +164,40 @@ p{
 .linked{
     margin-left:50px ;
     padding-top: 20 px;
+}
+.reports{
+    background-color: transparent;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 5vh;
+    justify-content: center;
+}
+.reports:hover{
+    background-color: rgb(7, 101, 184);
+}
+.module1_heading{
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.module1_para{
+    margin-top: 5vh;
+    font-size: larger;
+    font-family: sans-serif;
+    max-width: 100vh;
+    text-align: center;
+    padding: 1vh;
+    color: rgb(8 235 8);
+    text-transform:capitalize;
+}
+.module1_para_box{
+    display: flex;
+}
+.module1_para_box img{
+    border: 0.1vh solid black;        
+    margin-left:50vh ;
+    margin-top: 5vh;
+    width: 40vh;
+    height: auto;
 }
