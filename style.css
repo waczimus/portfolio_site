@@ -84,9 +84,6 @@ body{
     width: 190vh;
     height: 60vh;
     display: flex;
-    background-color:transparent;
-}
-.about:hover{
     background-color: #003459;
     border-radius: 1vh;
 }
@@ -163,8 +160,32 @@ p{
     width:auto;
 
 }
-
-
+.modules_selection a{
+    display: contents;
+}
+.modules_selection img{
+    width: 20vh;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    padding: 5vh;
+    border-radius: 1vh;
+    box-shadow: #03045e 0.5vh 0.5vh 0.5vh;
+}
+.modules_selection img:hover{
+    width: 19.5vh;
+    box-shadow: none;
+}
+.modules_selection img:hover{
+    width: 19.5vh;
+    padding-left: 5.5vh;
+}
+#h1_module1{
+    color: #8dcad2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 3vh;
+    text-shadow: #003459 1vh 1vh 1vh;
+}
 
 
 
