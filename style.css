@@ -72,7 +72,8 @@ body{
 }
 
 .photo img{
-    margin-left: 15vh;
+    margin-left: 3vh;
+    margin-right: 10vh;
     margin-top: 8vh;
     border-radius: 10vh;
     height: 44vh;
@@ -179,6 +180,52 @@ p{
     width: 19.5vh;
     padding-left: 5.5vh;
 }
+.contact p{
+    font-size: 3vh;
+    color:#76c4ce ;
+    text-transform: capitalize;
+    text-align:center;
+}
+.contact h1{
+    text-transform: capitalize;
+    text-align: center;
+    color: #8dcad2;
+    text-shadow: #003459 0.5vh 0.5vh 0.5vh;
+}
+.contact_info{
+    margin-right: 150vh;
+    text-align: center;
+    display: flex;
+}
+.contact_info h2{
+    color: #8dcad2;
+}
+.contact_info img{
+    width: 7vh;
+    background-color: #03045e;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+.contact_info_address{
+    padding: 5vh;
+    padding-right: 10vh;
+    margin-left: 20vh;
+}
+.contact_info_contact{
+    padding: 5vh;
+    padding-right: 10vh;
+    margin-left: 14vh;
+}
+.contact_info_contact a{
+    color: #448891;
+
+}
+.contact_info_contact a:hover{
+    color: #03045e;
+}
+#email{
+    text-transform: none;
+}
 #h1_module1{
     color: #8dcad2;
     text-align: center;
@@ -186,10 +233,58 @@ p{
     padding: 3vh;
     text-shadow: #003459 1vh 1vh 1vh;
 }
-
-
-
-
+.content_module1_1{
+    display: flex;
+    margin-top: 5vh;
+}
+.content_module1_1 p{
+    text-transform: capitalize;
+    margin-top: 10vh;
+    margin-right: 25vh;
+    color: #8dcad2;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+}
+.content_module1_1 img{
+    height: 35vh;
+    border-radius: 3vh;
+}
+.content_module1_2 img{
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 10vh;
+}
+.content_module1_2{
+    display: flex;
+}
+.content_module1_2 p{
+    text-transform: capitalize;
+    margin-top: 20vh;
+    margin-right: 25vh;
+    color: #8dcad2;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+}
+.content_module1_3{
+    display: flex;
+}
+.content_module1_3 p{
+    text-transform: capitalize;
+    margin-top: 20vh;
+    margin-right: 25vh;
+    color: #8dcad2;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+    margin-bottom: 20vh;
+}
+.content_module1_3 img{
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 10vh;
+}
 
 
 
