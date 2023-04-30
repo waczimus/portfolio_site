@@ -267,7 +267,7 @@ p{
 }
 .content_module1_imgs img{
     padding: 0vh;
-    margin-left: 5vh;
+    margin-left: 10vh;
     margin-top: 3vh;
     border-radius: 1.5vh;
     border: #f3f2f2 solid 1vh;
@@ -278,31 +278,41 @@ p{
     width: fit-content;
 }
 .endcolor{
-    background-color:#3c3e3f;
+    background-image: url(./backgrounds/orangegrayhal.jpg);
     height: 5vh;
-    box-shadow: 0vh 0vh 1vh black;
+    margin-top: 5vh;
+    box-shadow: 0vh 0vh 1vh rgb(141, 140, 140);
 }
 .content_module2_1 p{
-    text-transform: capitalize;
+    margin-top: 2vh;
+    color: #dbe0e0;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2vh;
+    width: fit-content;
+}
+.content_module2_1 h2{
     margin-top: 10vh;
-    margin-right: 25vh;
-    color: #8dcad2;
-    margin-left: 10vh;
-    font-size: large;
-    width: 100vh;
-    margin-bottom: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    color: #dbe0e0;
+    margin-left: 2vh;
+    width: fit-content;
 }
 #h1_module2{
-    color: #8dcad2;
+    color: #f5f8f8;
     text-align: center;
     text-transform: capitalize;
     padding: 3vh;
     text-shadow: #003459 1vh 1vh 1vh;
 }
-.content_module2_1{
-    display: flex;
+.content_module2_1 img{
+    height: 45vh;
 }
 .content_module2_1 img{
-    width: 50vh;
+    padding: 0vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+    border-radius: 1.5vh;
+    border: #f3f2f2 solid 1vh;
+    height: 45vh;
 }
-
