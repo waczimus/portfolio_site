@@ -13,7 +13,7 @@ html {
     margin-top: -6vh;
     width: 0;
     padding-bottom: 0vh;
-    background: linear-gradient(270deg, slategrey, transparent);
+    background: linear-gradient(90deg, slategrey, transparent);
     animation-name: navani;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -161,8 +161,20 @@ p {
 .vedant_name {
     font-size: 9vh;
     font-family: fantasy;
-    margin-left: 130vh;
-    padding: 1vh;
+    /* margin-left: 130vh; */
+    padding:0;
+    border-left: 3vh solid rgb(36, 41, 46);
+}
+
+.vedant_name {
+    display: flex;
+}
+
+.vedant_name hr {
+    width: 130vh;
+    height: 1vh;
+    margin-top: 5vh;
+    border: 1vh solid #448891;
 }
 
 .vedant_name p {
@@ -182,13 +194,31 @@ p {
     font-size: 3vh;
     color: rgb(231, 229, 229);
     margin-left: 5vh;
-    font-family: serif;
+    font-family:'Times New Roman', Times, serif;
     text-transform: capitalize;
+    padding-top: 2vh;
 }
 
 .background_about_info {
-    margin-top: 5vh;
+    margin-top: 2vh;
     padding: 3vh;
+    padding-left: 0;
+    border-left: 3vh solid rgb(36, 41, 46);
+    margin-right: 10vh;
+}
+
+.background_about_info hr {
+    height: 1vh;
+    width: 100vh;
+    border: 1vh solid rgb(36, 41, 46);
+}
+
+h4 {
+    font-size: 7vh;
+    margin-left: 10vh;
+    font-family: fantasy;
+    color: rgb(36, 41, 46);
+    padding-top: 3vh;
 }
 
 .background_about_info p {
@@ -204,6 +234,7 @@ p {
     padding-top: 7vh;
     text-align: center;
     font-size: 8vh;
+    font-family: fantasy;
     color: slategrey;
     text-decoration: none;
     animation-name: undani;
@@ -242,6 +273,7 @@ p {
 #contact {
     padding-top: 6vh;
     padding-bottom: 7vh;
+    margin-right: 2vh;
     background: linear-gradient(270deg, gray, transparent);
 }
 
@@ -254,9 +286,11 @@ p {
 
 #contact h1 {
     padding-top: 7vh;
-    text-align: center;
+    text-align:end;
+    margin-right:25vh ;
     font-size: 8vh;
-    color: rgb(245, 246, 247);
+    font-family: fantasy;
+    color: rgb(36,41,46);
     text-decoration: none;
     animation-name: undani;
     animation-duration: 0.5s;
