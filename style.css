@@ -175,9 +175,10 @@ p {
     height: 1vh;
     margin-top: 5vh;
     border: 1vh solid #448891;
+    animation: none;
 }
 
-.vedant_name p {
+#anived{
     overflow: hidden;
     white-space: nowrap;
     color: #448891;
@@ -238,7 +239,7 @@ h4 {
     color: slategrey;
     text-decoration: none;
     animation-name: undani;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -274,72 +275,53 @@ h4 {
     padding-top: 6vh;
     padding-bottom: 7vh;
     margin-right: 2vh;
+    border-radius: 1vh;
+    justify-content: end;
     background: linear-gradient(270deg, gray, transparent);
 }
 
 #contact p {
     font-size: 3vh;
-    color: #9deffa;
+    color: #f4f6f7;
     text-transform: capitalize;
-    text-align: center;
+    text-align:right;
 }
 
 #contact h1 {
     padding-top: 7vh;
     text-align:end;
-    margin-right:25vh ;
+    padding-right: 10vh;
     font-size: 8vh;
     font-family: fantasy;
+    height: 15vh;
     color: rgb(36,41,46);
+    border-right: 3vh solid rgb(36,41,46);
     text-decoration: none;
+}
+#the_end a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 12px;
+    margin-left: 80%;
+}
+.moreinfo{
+    display: flex;
+}
+.moreinfo a{
+    font-family: fantasy;
+    color: rgb(243, 243, 59);
+    font-size: 12vh;
     animation-name: undani;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
-
-.contact_info {
-    margin-right: 150vh;
-    text-align: center;
-    display: flex;
+.moreinfo a:hover{
+    color: rgb(129, 129, 3);
+    font-size: 11.5vh;
+    animation-name: undani;
+    animation-play-state:paused;
 }
-
-.contact_info h2 {
-    color: #8dcad2;
-}
-
-.contact_info img {
-    width: 7vh;
-    background-color: #686767;
-    padding: 1vh;
-    border-radius: 5vh;
-}
-
-.contact_info_address {
-    padding: 5vh;
-    padding-right: 10vh;
-    margin-left: 20vh;
-}
-
-.contact_info_contact {
-    padding: 5vh;
-    padding-right: 10vh;
-    margin-left: 14vh;
-}
-
-.contact_info_contact a {
-    color: #448891;
-
-}
-
-.contact_info_contact a:hover {
-    color: #03045e;
-}
-
-#email p {
-    text-transform: none;
-}
-
 #h1_module1 {
     color: #f5f8f8;
     text-align: center;
