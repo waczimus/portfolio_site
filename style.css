@@ -21,7 +21,23 @@ html {
     animation-delay: 0.2s;
     animation-timing-function: ease-in-out;
 }
-
+.navbar2{
+    position: fixed;
+    display: flex;
+    width: 0;
+    padding-bottom: 0;
+    background: linear-gradient(90deg, rgb(100, 124, 148), transparent);
+    animation-name: navani;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+}
+.backarrow {
+    font-size:6vh ;
+    padding-left: 40rem;
+}
 .links ul {
     display: flex;
     list-style-type: none;
@@ -100,11 +116,6 @@ a:hover {
     animation-fill-mode: forwards;
     animation-delay: 0.2s;
     animation-timing-function: ease-in-out;
-    filter: saturate(0);
-}
-
-.photo img:hover {
-    filter: unset;
 }
 
 #about {
@@ -306,18 +317,19 @@ h4 {
     animation-play-state: paused;
 }
 
-#h1_module1 {
+.h1_module1 {
     color: #f5f8f8;
     text-align: center;
     text-transform: capitalize;
     padding: 3vh;
+    padding-top: 10vh;
     text-shadow: #003459 1vh 1vh 1vh;
 }
 
 .content_module1_font {
     color: #f4f5f7;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    font-size: 3vh;
     margin-left: 2vh;
     font-weight: 0;
 }
@@ -327,20 +339,12 @@ h4 {
     margin-left: 10vh;
     margin-top: 3vh;
     border-radius: 1.5vh;
-    border: #f3f2f2 solid 1vh;
-    height: 45vh;
+    height: 18rem;
 }
 
 .content_module1_fontpara {
     margin-left: 2vh;
     width: fit-content;
-}
-
-.endcolor {
-    background-image: url(./backgrounds/orangegrayhal.jpg);
-    height: 5vh;
-    margin-top: 5vh;
-    box-shadow: 0vh 0vh 1vh rgb(141, 140, 140);
 }
 
 .content_module2_1 p {
@@ -366,19 +370,6 @@ h4 {
     text-transform: capitalize;
     padding: 3vh;
     text-shadow: #003459 1vh 1vh 1vh;
-}
-
-.content_module2_1 img {
-    height: 45vh;
-}
-
-.content_module2_1 img {
-    padding: 0vh;
-    margin-left: 10vh;
-    margin-top: 3vh;
-    border-radius: 1.5vh;
-    border: #f3f2f2 solid 1vh;
-    height: 45vh;
 }
 
 #the_end {
