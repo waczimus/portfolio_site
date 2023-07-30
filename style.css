@@ -36,7 +36,10 @@ html {
 }
 .backarrow {
     font-size:6vh ;
-    padding-left: 40rem;
+    margin-left: 40rem;
+}
+.backarrow:hover{
+    color: green;
 }
 .links ul {
     display: flex;
