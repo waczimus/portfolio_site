@@ -336,13 +336,13 @@ h4 {
     margin-left: 2vh;
     font-weight: 0;
 }
-
+iframe{
+    height: 50vh;
+    width: 100vh;
+    margin-left: 25%;
+}
 .content_module1_imgs img {
-    padding: 0vh;
-    margin-left: 10vh;
-    margin-top: 3vh;
-    border-radius: 1.5vh;
-    height: 18rem;
+    height: 100vh;
 }
 
 .content_module1_fontpara {
