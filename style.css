@@ -160,7 +160,20 @@ p {
     border-radius: 1vh;
     background: linear-gradient(90deg, gray, transparent);
 }
-
+.vedant{
+    display: flex;
+}
+.branch_n p{
+    font-size: 50vh;
+    font-family:sans-serif;
+    margin-left: 10vh;
+    color: #616060;
+}
+.branch_n h6{
+    color: #afafaf;
+    font-size: 5vh;
+    margin-left: 11vh;
+}
 .vedant_name {
     font-size: 9vh;
     font-family: fantasy;
@@ -183,7 +196,6 @@ p {
     border: 1vh solid #96d0f1;
     animation: none;
 }
-
 .b_e_student {
     font-size: 3vh;
     color: rgb(231, 229, 229);
@@ -379,7 +391,21 @@ iframe{
     background: linear-gradient(0deg, black, transparent);
     height: 80px;
 }
-
+#waiting{
+    animation: rotcons;
+    animation-duration: 5s;
+    animation-timing-function:linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+#nothing{
+    margin-left: 40%;
+    font-size: 10vh;
+    margin-top: 3.5%;
+    color: yellow;
+}
 @keyframes photani {
     from {
         height: 0;
@@ -429,5 +455,13 @@ iframe{
 
     to {
         text-decoration: underline;
+    }
+}
+@keyframes rotcons{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
     }
 }
