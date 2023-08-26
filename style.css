@@ -354,7 +354,8 @@ iframe{
     margin-left: 25%;
 }
 .content_module1_imgs img {
-    height: 100vh;
+    height: 30%;
+    padding: 5vh 5vh;
 }
 
 .content_module1_fontpara {
