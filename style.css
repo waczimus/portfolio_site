@@ -5,14 +5,17 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 100%;
 }
-
+p {
+    font-family: helvetica;
+}
 .navbar {
     position: fixed;
     display: flex;
-    margin-top: -6vh;
+    margin-top: -2.49rem;
     width: 0;
-    padding-bottom: 0vh;
+    padding-bottom: 0;
     background: linear-gradient(90deg, slategrey, transparent);
     animation-name: navani;
     animation-duration: 3s;
@@ -35,8 +38,8 @@ html {
     animation-timing-function: ease-in-out;
 }
 .backarrow {
-    font-size:6vh ;
-    margin-left: 40rem;
+    font-size:2.49rem ;
+    margin-left:30rem ;
 }
 .backarrow:hover{
     color: #f3f4f5;
@@ -44,32 +47,32 @@ html {
 .links ul {
     display: flex;
     list-style-type: none;
-    margin-top: 1.5vh;
+    margin-top: 0.6225rem;
 }
 
 a {
     text-decoration: none;
-    padding-top: 0vh;
+    padding-top: 0rem;
     color: #828485;
     font-weight: 900;
     font-size: large;
     text-transform: capitalize;
     font-family: 'Times New Roman', Times, serif;
-}
+    }
 
 a:hover {
-    padding-right: 0vh;
+    padding-right: 0;
     color: #f1f1f5;
 }
 
 .portfolio {
-    padding-left: 20vh;
-    padding-right: 50vh;
-    padding-top: 0vh;
+    padding-left: 8.3rem;
+    padding-right: 20.75rem;
+    padding-top: 0;
 }
 
 .links ul li {
-    padding-left: 14vh;
+    padding-left: 5.81rem;
 }
 
 #background {
@@ -83,7 +86,7 @@ a:hover {
 #port {
     color: #f5f7f8;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 0vh 1vh 1vh rgb(22, 1, 1);
+    text-shadow: 0rem 0.415rem 0.415rem rgb(22, 1, 1);
 }
 
 #folio {
@@ -91,7 +94,7 @@ a:hover {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 0vh 1vh 1vh rgb(15, 0, 0);
     margin-top: 0.35vh;
-    font-size: 27pt;
+    font-size: 2.3rem;
 
 }
 
@@ -103,15 +106,15 @@ a:hover {
 }
 
 #greet {
-    font-size: 6vh;
+    font-size: 2.49rem;
     color: #828485;
 }
 
 .photo img {
-    margin-left: 3vh;
-    margin-right: 17vh;
-    margin-top: 8vh;
-    border-radius: 3vh;
+    margin-left: 1.245rem;
+    margin-right: 7.055rem;
+    margin-top: 3.32rem;
+    border-radius: 1.245rem;
     height: 0;
     border: 0;
     animation-name: photani;
@@ -122,15 +125,15 @@ a:hover {
 }
 
 #about {
-    margin-top: 7vh;
-    margin-left: 7vh;
-    width: 190vh;
-    height: 60vh;
+    margin-top: 2.905rem;
+    margin-left: 2.905rem;
+    width: 78.85rem;
+    height: 24.9rem;
     display: flex;
     background-color: transparent;
-    border-radius: 1vh;
-    padding-bottom: 10vh;
-    padding-top: 4.5vh;
+    border-radius: 0.415rem;
+    padding-bottom: 4.15rem;
+    padding-top: 1.8675rem;
 
 }
 
@@ -140,45 +143,49 @@ a:hover {
 
 .info p {
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    font-family:Helvetica;
+    font-size: 1rem;
+    color: rgb(250, 250, 233);
 }
 
 #hello {
-    font-size: 20pt;
+    font-size: 1.3rem;
 }
 
 p {
-    width: 60vh;
-    color: white;
+    width: 24.9rem;
+    color: rgb(250, 250, 233);
 }
 
 #aboutbox {
-    padding-top: 4.5vh;
-    padding-bottom: 7vh;
-    margin-left: 2vh;
-    border-radius: 1vh;
+    padding-top: 1.8675rem;
+    padding-bottom: 2.905rem;
+    margin-left: 0.83rem;
+    border-radius: 0.415rem;
     background: linear-gradient(90deg, gray, transparent);
 }
 .vedant{
     display: flex;
 }
 .branch_n p{
-    font-size: 50vh;
+    font-size: 20.75rem;
     font-family:sans-serif;
-    margin-left: 10vh;
+    margin-left: 4.15rem;
     color: #616060;
 }
 .branch_n h6{
     color: #afafaf;
-    font-size: 5vh;
-    margin-left: 11vh;
+    font-size: 2.075rem;
+    margin-left: 4.565rem;
 }
 .vedant_name {
-    font-size: 9vh;
+    font-size: 3.735rem;
     font-family: fantasy;
     padding: 0;
-    border-left: 3vh solid rgb(36, 41, 46);
+    border-left: 1.245rem solid rgb(36, 41, 46);
+}
+.vedant_name p{
+    font-family: fantasy;
 }
 
 .vedant_name {
@@ -190,41 +197,41 @@ p {
 }
 
 .vedant_name hr {
-    width: 130vh;
-    height: 1vh;
-    margin-top: 5vh;
-    border: 1vh solid #96d0f1;
+    width: 53.95rem;
+    height: 0.415rem;
+    margin-top: 2.075rem;
+    border:0.415rem solid #96d0f1;
     animation: none;
 }
 .b_e_student {
-    font-size: 3vh;
+    font-size: 1.245rem;
     color: #90d0f5;
-    margin-left: 5vh;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2.075rem;
+    font-family: Helvetica;
     text-transform: capitalize;
-    padding-top: 2vh;
+    padding-top: 0.83rem;
 }
 
 .background_about_info {
-    margin-top: 2vh;
-    padding: 3vh;
+    margin-top: 0.83rem;
+    padding: 1.245rem;
     padding-left: 0;
-    border-left: 3vh solid rgb(36, 41, 46);
-    margin-right: 10vh;
+    border-left: 1.245rem solid rgb(36, 41, 46);
+    margin-right: 4.15rem;
 }
 
 .background_about_info hr {
-    height: 1vh;
-    width: 100vh;
-    border: 1vh solid rgb(36, 41, 46);
+    height: 0.415rem;
+    width: 41.5rem;
+    border: 0.415rem solid rgb(36, 41, 46);
 }
 
 h4 {
-    font-size: 7vh;
-    margin-left: 10vh;
+    font-size: 2.905rem;
+    margin-left: 4.15rem;
     font-family: fantasy;
     color: rgb(36, 41, 46);
-    padding-top: 3vh;
+    padding-top: 1.245rem;
 }
 
 .background_about_info p {
@@ -232,14 +239,14 @@ h4 {
 }
 
 #report {
-    padding-bottom: 4.5vh;
-    padding-top: 4.5vh;
+    padding-bottom: 1.8675rem;
+    padding-top: 1.8675rem;
 }
 
 #report h3 {
-    padding-top: 7vh;
+    padding-top: 2.905rem;
     text-align: center;
-    font-size: 8vh;
+    font-size: 3.32rem;
     font-family: fantasy;
     color: slategrey;
     text-decoration: none;
@@ -250,7 +257,7 @@ h4 {
 }
 
 #modules_selection {
-    padding-top: 7vh;
+    padding-top: 2.905rem;
 }
 
 #modules_selection a {
@@ -258,56 +265,56 @@ h4 {
 }
 
 #modules_selection img {
-    width: 20vh;
-    margin-left: 3vh;
-    margin-top: 4vh;
-    padding: 5vh;
-    border-radius: 1vh;
+    width: 8.3rem;
+    margin-left: 1.245rem;
+    margin-top: 1.66rem;
+    padding: 2.075rem;
+    border-radius: 0.415rem;
     box-shadow: #96d0f1 0.5vh 0.5vh 0.5vh;
 }
 
 #modules_selection img:hover {
-    width: 19.5vh;
+    width: 8.0925rem;
     box-shadow: none;
 }
 
 #modules_selection img:hover {
-    width: 19.5vh;
-    padding-left: 5.5vh;
+    width: 8.0925rem;
+    padding-left: 2.2825rem;
 }
 
 #contact {
-    padding-top: 6vh;
-    padding-bottom: 7vh;
-    margin-right: 2vh;
-    border-radius: 1vh;
+    padding-top: 2.49rem;
+    padding-bottom: 2.905rem;
+    margin-right: 0.83rem;
+    border-radius: 0.415rem;
     justify-content: end;
     background: linear-gradient(270deg, gray, transparent);
 }
 
 #contact p {
-    font-size: 3vh;
-    color: #f4f6f7;
+    font-size: 1.245rem;
+    color: rgb(250, 250, 233);
     text-transform: capitalize;
     text-align: right;
 }
 
 #contact h1 {
-    padding-top: 7vh;
+    padding-top: 2.905rem;
     text-align: end;
-    padding-right: 10vh;
-    font-size: 8vh;
+    padding-right: 4.15rem;
+    font-size: 3.32rem;
     font-family: fantasy;
-    height: 15vh;
+    height: 6.225rem;
     color: rgb(36, 41, 46);
-    border-right: 3vh solid rgb(36, 41, 46);
+    border-right: 1.245rem solid rgb(36, 41, 46);
     text-decoration: none;
 }
 
 #the_end a {
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-left: 80%;
 }
 
@@ -318,7 +325,7 @@ h4 {
 .moreinfo a {
     font-family: fantasy;
     color: gold;
-    font-size: 12vh;
+    font-size: 4.98rem;
     animation-name: undani;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -327,56 +334,41 @@ h4 {
 
 .moreinfo a:hover {
     color: slategray;
-    font-size: 11.5vh;
+    font-size: 4.7725rem;
     animation-name: undani;
     animation-play-state: paused;
 }
 
 .h1_module1 {
-    color: #f5f8f8;
+    color: rgb(250, 250, 233);
     text-align: center;
     text-transform: capitalize;
-    padding: 3vh;
-    padding-top: 10vh;
-    text-shadow: #003459 1vh 1vh 1vh;
+    padding: 1.245rem;
+    padding-top: 4.15rem;
+    text-shadow: #003459 0.415rem 0.415rem 0.415rem;
 }
 
-.content_module1_font {
-    color: #f4f5f7;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3vh;
-    margin-left: 2vh;
-    font-weight: 0;
-}
-iframe{
-    height: 50vh;
-    width: 100vh;
-    margin-left: 25%;
-}
+
 .content_module1_imgs img {
-    height: 30%;
-    padding: 5vh 5vh;
+    height: 11rem;
+    padding: 2.075rem 2.075rem;
 }
 
-.content_module1_fontpara {
-    margin-left: 2vh;
-    width: fit-content;
-}
 
 .content_module2_1 p {
-    margin-top: 2vh;
-    color: #dbe0e0;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 2vh;
+    margin-top: 0.83rem;
+    color: rgb(250, 250, 233);
+    font-family: Helvetica;
+    margin-left: 0.83rem;
     width: fit-content;
 }
 
 .content_module2_1 h2 {
-    margin-top: 10vh;
-    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4.15rem;
+    font-family:helvetica;
     font-size: 14pt;
-    color: #dbe0e0;
-    margin-left: 2vh;
+    color: rgb(250, 250, 233);
+    margin-left: 0.83rem;
     width: fit-content;
 }
 
@@ -384,13 +376,13 @@ iframe{
     color: #f5f8f8;
     text-align: center;
     text-transform: capitalize;
-    padding: 3vh;
-    text-shadow: #003459 1vh 1vh 1vh;
+    padding: 1.245rem;
+    text-shadow: #003459 0.415rem 0.415rem 0.415rem;
 }
 
 #the_end {
     background: linear-gradient(0deg, black, transparent);
-    height: 80px;
+    height: 5rem;
 }
 #waiting{
     animation: rotcons;
@@ -403,9 +395,45 @@ iframe{
 }
 #nothing{
     margin-left: 40%;
-    font-size: 10vh;
+    font-size: 4.15rem;
     margin-top: 3.5%;
     color: yellow;
+}
+.documentation_m1{
+    padding: 1rem;
+}
+.documentation_m1 h2{
+    color: #f5f8f8;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 1.245rem;
+    text-shadow: #003459 0.415rem 0.415rem 0.415rem;
+}
+.documentation_m1 p{
+    width: 100%;
+}
+.documentation_m1 a{
+    text-transform: none;
+    color: rgb(115, 245, 115);
+}
+.documentation_m1 a:hover{
+    text-decoration: underline;
+    color: rgb(115, 245, 115);
+}
+.documentation_m1 ul{
+    font-family: helvetica;
+    color: #f3f4f5;
+    padding: 2rem;
+}
+.flexbox_m1 img{
+    padding: 1rem;
+}
+.flexbox_m1{
+    display: flex;
+}
+#vscode_img{
+    width: 60%;
+    margin-left: 20%;
 }
 @keyframes photani {
     from {
@@ -414,8 +442,8 @@ iframe{
     }
 
     to {
-        height: 44vh;
-        border: 0.01vh solid rgb(252, 251, 250);
+        height: 18.26rem;
+        border: 0.00415rem solid rgb(252, 251, 250);
     }
 }
 
@@ -425,17 +453,17 @@ iframe{
     }
 
     to {
-        width: 100vh;
+        width: 41.5rem;
     }
 }
 
 @keyframes vedant_nameani {
     from {
-        font-size: 4vh;
+        font-size: 1.66rem;
     }
 
     to {
-        font-size: 9vh;
+        font-size: 3.735rem;
     }
 }
 
