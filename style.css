@@ -39,7 +39,7 @@ p {
 }
 .backarrow {
     font-size:2.49rem ;
-    margin-left:30rem ;
+    margin-left:32rem;
 }
 .backarrow:hover{
     color: #f3f4f5;
@@ -348,10 +348,12 @@ h4 {
     text-shadow: #003459 0.415rem 0.415rem 0.415rem;
 }
 
-
+.content_module1_imgs{
+    margin-left: 5%;
+}
 .content_module1_imgs img {
-    height: 11rem;
-    padding: 2.075rem 2.075rem;
+    height: 13rem;
+    margin: 0.415rem 0.415rem;
 }
 
 
@@ -397,7 +399,8 @@ h4 {
     margin-left: 40%;
     font-size: 4.15rem;
     margin-top: 3.5%;
-    color: yellow;
+    width: fit-content;
+    color: rgb(56, 56, 56);
 }
 .documentation_m1{
     padding: 1rem;
@@ -434,6 +437,15 @@ h4 {
 #vscode_img{
     width: 60%;
     margin-left: 20%;
+}
+.contentsofmodule p{
+    width: fit-content;
+}
+.contentsofmodule{
+    margin-left: 85%;
+    padding-left: 2%;
+    border-left: 0.415rem solid rgb(54, 54, 54);
+    list-style: none;
 }
 @keyframes photani {
     from {
